@@ -1,0 +1,19 @@
+package hello;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+
+    public static void main(String[] args) {
+    	//System.out.print("hi");
+    	UserRepository userRepository;
+    	User n = new User();
+    	n.setName("Punit");
+    	n.setEmail("abc@ymail.com");
+    	userRepository.save(n);
+        SpringApplication.run(Application.class, args);
+        //System.out.println("bye");
+    }
+}
