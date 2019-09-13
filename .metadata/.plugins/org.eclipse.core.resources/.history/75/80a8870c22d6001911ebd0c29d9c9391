@@ -3,6 +3,7 @@
   <groupId>hello</groupId>
   <artifactId>ecomm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
 <name>mysql-jdbc-driver</name>
 <description>mysql jdbc driver example</description>
 
