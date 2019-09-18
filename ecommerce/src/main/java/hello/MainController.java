@@ -34,7 +34,7 @@ public class MainController {
 	public @ResponseBody User getAllUsers() {
 		// This returns a JSON or XML with the users
 		User u = new User();
-		u.setName("KUmar abhay waaaaaaaaaaaaaaaaaaaaaaaahhhhh");
+		u.setName("Finally done byKUmar abhay waaaaaaaaaaaaaaaaaaaaaaaahhhhh");
 		u.setEmail("abhay@gmail.com");
 //		return userRepository.findAll();
 		return u;
